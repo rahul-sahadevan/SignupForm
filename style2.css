@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mulish', sans-serif;
+}
+body{
+    background-color: #F8FCFB;
+    text-align: center;
+    background-image:url("assets/Rectangle 1.png");
+    background-size: 100% 50%;
+    background-position: left bottom; 
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 444px;
+    height: 500px;
+    box-shadow: 0px 6px 8px 0px #0000000D;
+    border: 1px solid rgb(221, 215, 215);
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 18px;
+    justify-content: center;
+    background-color: #F8FCFB;
+
+
+}
+.profile img :nth-child(){
+    width: 100px;
+    height: 100px;
+}
+.success{
+    margin-top: 50px;
+    color: #463EEA;
+}
+button{
+    background: linear-gradient(180deg, #625BF7 0%, #463EEA 100%);
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    width: 95%;
+    margin: 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+    
+
+}
+button:hover{
+    opacity: 0.9;
+    transform: scale(1.01);
+}
+
+
+@media screen and (max-width:480px){
+    .profile{
+        width: 400px;
+        height: 440px;
+        
+    }
+    .profile p{
+        margin: 5px;
+        width: 100%;
+        font-size: 16px;
+    }
+   
+    
+}

@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mulish', sans-serif;
+}
+body{
+    background-color: #F8FCFB;
+    text-align: center;
+    background-image:url("assets/Rectangle 2.png");
+    background-size: 100% 50%;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
+
+form{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 444px;
+    height: 537px;
+    margin-top: 100px;
+    box-shadow: 0px 6px 8px 0px #0000000D;
+    padding: 50px;
+    align-items: flex-start;
+    border: 1px solid rgb(221, 215, 215);
+
+}
+form input{
+    width: 95%;
+    margin: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border:1px solid rgb(207, 199, 199);
+    outline: none;
+
+}
+a{
+    text-decoration: none;
+}
+.newsign{
+    padding: 30px;
+    font-size: 12px;
+    width: 100%;
+}
+button{
+    background: linear-gradient(180deg, #625BF7 0%, #463EEA 100%);
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    width: 95%;
+    margin: 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+    
+
+}
+button:hover{
+    opacity: 0.9;
+    transform: scale(1.01);
+}
+h3{
+    font-size: 24px;
+}
+h5{
+    color: #9e9d9d;
+}
+.error{
+    font-size: 18px;
+    color: #625BF7;
+    align-self: center;
+}
+
+@media screen and (max-width:480px){
+    form{
+        width: 316px;
+        height: 438px;
+        padding: 25px;
+        
+    }
+    form input{
+        margin: 5px;
+        width: 100%;
+    }
+    h3{
+        font-size: 20px;
+        white-space: pre;
+    }
+    
+}
